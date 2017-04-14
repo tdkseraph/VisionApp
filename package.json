@@ -1,0 +1,38 @@
+{
+  "name": "VisionApp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "crypto": "0.0.3",
+    "file-system": "^2.2.2",
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
+    "https": "^1.0.0",
+    "node-cloud-vision-api": "^0.2.0",
+    "react": "16.0.0-alpha.6",
+    "react-cloud-vision-api": "^0.3.0",
+    "react-native": "0.43.3",
+    "react-native-asset-library-to-base64": "^1.0.1",
+    "react-native-fetch-blob": "^0.10.4",
+    "react-native-image-to-base64": "^0.1.0",
+    "react-redux": "^5.0.4",
+    "redux": "^3.6.0",
+    "request": "^2.81.0",
+    "stream": "0.0.2",
+    "url": "^0.11.0",
+    "util": "^0.10.3"
+  },
+  "devDependencies": {
+    "babel-jest": "19.0.0",
+    "babel-preset-react-native": "1.9.1",
+    "jest": "19.0.2",
+    "react-test-renderer": "16.0.0-alpha.6"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
